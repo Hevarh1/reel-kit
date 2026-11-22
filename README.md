@@ -12,18 +12,6 @@ It works for **right-to-left and left-to-right languages**. It was built for **K
 
 It is designed to be driven by an AI coding assistant (see `skill/SKILL.md`, a ready-made skill for Claude), but every step is a plain script you can run yourself.
 
-## What it looks like
-
-Frames from the built-in demos, rendered by `graphics/shot.py` over a grey stand-in for the speaker (the real pipeline composites them over your video). Each tile is a moment in time: subtitles, drawn lines, a split-screen step list, a title card and a lower-third.
-
-**English (left to right)**
-
-![English demo frames](docs/demo-english.jpg)
-
-**Kurdish Sorani (right to left)**
-
-![Sorani demo frames](docs/demo-sorani.jpg)
-
 ## Requirements
 
 - ffmpeg 4.4 or newer
@@ -47,6 +35,33 @@ python3 ../subs/chunks.py example/en/transcript.json work --fixes ../subs/fixes.
 python3 shot.py sheet_en.jpg 2 5.5 9 11.4
 ```
 (`example/ckb/` holds the Sorani originals to copy back.)
+
+## Designs
+
+Pick a look with one line in `graphics/config.js`; every component and the subtitles restyle themselves.
+
+| `THEME` | Look |
+|---|---|
+| `'flow'` | Soft paper panels, hand-drawn lines, text straight on the wall, no boxes. Calm, editorial. |
+| `'night'` | Dark panels, neon accents with glow, notes and markers on dark cards. Tech, product, coding. |
+| `'punch'` | White panels, heavy type, a highlighter box behind key subtitle words. Loud, fast, opinionated. |
+
+`PALETTE` overrides any colour of the chosen design (for example your brand's two accent tones).
+
+Components (all work in every design and in both text directions):
+
+| Component | What it does |
+|---|---|
+| `ribbon` | flowing line across the frame |
+| `note`, `word` | icon/label or a single emphasised word beside the head |
+| `stepMarker` | numbered marker above the head |
+| `bigWord` | huge word in front of the speaker, `kind:'yes'` / `'no'` for verdicts |
+| `lowerThird` | two-part title with a small line on the chest area |
+| `image`, `logoCard` | your own image or logo, on a glow or on a card with a label |
+| split screen: `steps`, `panelHeadline`, `slide` | content in the panel that covers the top while the speaker shifts down |
+| takeover: `codeWall`, or anything added to `TKC[i]` | full-screen scene, e.g. code typing itself |
+
+`example/showcase/` demonstrates the ones the basic demos don't use: copy its `config.js` and `timeline.js` into `graphics/`, build the words from its `transcript.json`, and try each `THEME`.
 
 ## Language setup
 
@@ -93,8 +108,8 @@ Proof-read `graphics/work/subs.txt`. Speech-to-text repeats the same mistakes, e
 ### 3. Graphics (`graphics/`)
 The page is deterministic: `renderAt(t)` sets every element from the time alone, so any frame can be rendered in any order.
 
-- `config.js`: text direction and font, palette, split-screen intervals (`HALF`), full-screen takeovers (`TK`), slow zooms (`ZOOMS`), jump-cut times (`CUTS`), subtitle heights.
-- `timeline.js`: what appears when. Components from `lib.js`: `ribbon`, `note`, `word`, `image`, `lowerThird`, `steps`, `panelHeadline`, `slide`, plus the low-level `add(html, css, fn)`.
+- `config.js`: design (`THEME`), text direction and font, optional palette override, split-screen intervals (`HALF`), full-screen takeovers (`TK`), slow zooms (`ZOOMS`), jump-cut times (`CUTS`), subtitle heights.
+- `timeline.js`: what appears when. Components from `lib.js` (see Designs above), plus the low-level `add(html, css, fn)` for anything custom.
 - `finish.js`: subtitles and the driver.
 
 ```
@@ -140,4 +155,4 @@ The result lands around -14 LUFS. All effects are synthesized, so there is nothi
 
 ## Licence
 
-MIT, see `LICENSE`. Fonts are installed from npm under their own licences (Vazirmatn, Inter and Space Grotesk: SIL Open Font License).
+MIT, see `LICENSE`. Fonts are installed from npm under their own licences (Vazirmatn, Inter, Space Grotesk and JetBrains Mono: SIL Open Font License).

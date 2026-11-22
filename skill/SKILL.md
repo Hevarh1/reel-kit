@@ -39,7 +39,9 @@ Do not run ahead a stage. Do not make content decisions (which section to drop t
 - Plan from the transcript: jump-cut times, lists, named things, the one or two strongest words, the call to action. A visual beat every 2 to 4 seconds, varied; never the same device twice in a row.
 - Use split screens for lists and explanations, return to the speaker for personal or emphatic lines, hide jump cuts with a zoom change and a soft light dip.
 - Never cut the speaker out, never put anything behind them, never frame them in a box.
-- Prefer drawn lines, mask reveals, drifting and gentle push-ins over boxes, pills, glows and neon.
+- Motion should flow in every design: drawn lines, mask reveals, drifting, gentle push-ins. Cards and glow belong to `night` only; do not add boxes to `flow`.
+- `bigWord` goes in front of the speaker for verdicts and the strongest word; `stepMarker` above the head for numbered points; `codeWall` or another takeover at most once or twice.
+- Choose the design with the user before building: `THEME` `'flow'` (soft, drawn, no boxes), `'night'` (dark, neon, cards) or `'punch'` (heavy type, highlighter). Show a still sheet of one scene in the candidates if they are unsure. Do not mix designs within one video.
 - Take the palette from the user's brand (two accent tones, an ink colour, a paper colour). Few colours.
 - Real logos only from files the user supplies or official sources; place them, do not redraw them.
 - Respect safe zones: top 220 px, bottom 420 px, right column x > 940 between y 900 and 1500. Subtitles at y 1330, y 800 in split mode, lower them when a title sits on the chest area (`CAPDOWN`), hide them when a title says the same words (`CAPHIDE`).

@@ -1,7 +1,10 @@
 // ---- EDIT ME: text direction, palette + layout timeline (all times are seconds in the clean cut) ----
 // dir 'rtl' for Kurdish/Arabic/Persian, 'ltr' for English etc. font = CSS font-family list (must be linked in scene.html)
 const TEXT={dir:'rtl', font:"'Vazirmatn','Space Grotesk'"};
-const PALETTE={accent:'#1F8A8A', accent2:'#6FD6CF', ink:'#2B2C30', paper:'#F8F3EC'};
+// design: 'flow' (soft, drawn lines) | 'night' (dark, neon, cards) | 'punch' (heavy type, highlighter)
+const THEME='flow';
+// optional colour override, e.g. {accent:'#EC5A5C', accent2:'#FF7C74'}; null = the design's own colours
+const PALETTE=null;
 // split screen: a paper panel covers the top, the speaker video shifts down
 const HALF=[{a:3.10,b:9.40}];
 // full-screen takeover (use sparingly)
