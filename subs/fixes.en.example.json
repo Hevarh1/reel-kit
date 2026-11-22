@@ -1,0 +1,15 @@
+{
+  "_comment": "English example. Add names and terms your speech-to-text gets wrong.",
+  "chars": {},
+  "words": {
+    "ok": "OK"
+  },
+  "before": [],
+  "highlight": [
+    "steps",
+    "today"
+  ],
+  "hero": [
+    "not hard"
+  ]
+}

@@ -1,0 +1,262 @@
+{
+ "language_code": "en",
+ "segments": [
+  {
+   "text": "Learning something new is not hard. It only takes three simple steps: start small, keep going, fix your mistakes. Start today.",
+   "words": [
+    {
+     "text": "Learning",
+     "start_time": 0.2,
+     "end_time": 0.65,
+     "type": "word"
+    },
+    {
+     "text": " ",
+     "start_time": 0.65,
+     "end_time": 0.65,
+     "type": "spacing"
+    },
+    {
+     "text": "something",
+     "start_time": 0.7,
+     "end_time": 1.15,
+     "type": "word"
+    },
+    {
+     "text": " ",
+     "start_time": 1.15,
+     "end_time": 1.15,
+     "type": "spacing"
+    },
+    {
+     "text": "new",
+     "start_time": 1.2,
+     "end_time": 1.45,
+     "type": "word"
+    },
+    {
+     "text": " ",
+     "start_time": 1.45,
+     "end_time": 1.45,
+     "type": "spacing"
+    },
+    {
+     "text": "is",
+     "start_time": 1.5,
+     "end_time": 1.7,
+     "type": "word"
+    },
+    {
+     "text": " ",
+     "start_time": 1.7,
+     "end_time": 1.7,
+     "type": "spacing"
+    },
+    {
+     "text": "not",
+     "start_time": 1.72,
+     "end_time": 1.92,
+     "type": "word"
+    },
+    {
+     "text": " ",
+     "start_time": 1.92,
+     "end_time": 1.92,
+     "type": "spacing"
+    },
+    {
+     "text": "hard.",
+     "start_time": 1.95,
+     "end_time": 2.35,
+     "type": "word"
+    },
+    {
+     "text": " ",
+     "start_time": 2.35,
+     "end_time": 2.35,
+     "type": "spacing"
+    },
+    {
+     "text": "It",
+     "start_time": 3.4,
+     "end_time": 3.58,
+     "type": "word"
+    },
+    {
+     "text": " ",
+     "start_time": 3.58,
+     "end_time": 3.58,
+     "type": "spacing"
+    },
+    {
+     "text": "only",
+     "start_time": 3.6,
+     "end_time": 3.86,
+     "type": "word"
+    },
+    {
+     "text": " ",
+     "start_time": 3.86,
+     "end_time": 3.86,
+     "type": "spacing"
+    },
+    {
+     "text": "takes",
+     "start_time": 3.9,
+     "end_time": 4.14,
+     "type": "word"
+    },
+    {
+     "text": " ",
+     "start_time": 4.14,
+     "end_time": 4.14,
+     "type": "spacing"
+    },
+    {
+     "text": "three",
+     "start_time": 4.16,
+     "end_time": 4.38,
+     "type": "word"
+    },
+    {
+     "text": " ",
+     "start_time": 4.38,
+     "end_time": 4.38,
+     "type": "spacing"
+    },
+    {
+     "text": "simple",
+     "start_time": 4.4,
+     "end_time": 4.68,
+     "type": "word"
+    },
+    {
+     "text": " ",
+     "start_time": 4.68,
+     "end_time": 4.68,
+     "type": "spacing"
+    },
+    {
+     "text": "steps:",
+     "start_time": 4.7,
+     "end_time": 4.92,
+     "type": "word"
+    },
+    {
+     "text": " ",
+     "start_time": 4.92,
+     "end_time": 4.92,
+     "type": "spacing"
+    },
+    {
+     "text": "start",
+     "start_time": 4.95,
+     "end_time": 5.23,
+     "type": "word"
+    },
+    {
+     "text": " ",
+     "start_time": 5.23,
+     "end_time": 5.23,
+     "type": "spacing"
+    },
+    {
+     "text": "small,",
+     "start_time": 5.25,
+     "end_time": 5.65,
+     "type": "word"
+    },
+    {
+     "text": " ",
+     "start_time": 5.65,
+     "end_time": 5.65,
+     "type": "spacing"
+    },
+    {
+     "text": "keep",
+     "start_time": 6.22,
+     "end_time": 6.5,
+     "type": "word"
+    },
+    {
+     "text": " ",
+     "start_time": 6.5,
+     "end_time": 6.5,
+     "type": "spacing"
+    },
+    {
+     "text": "going,",
+     "start_time": 6.52,
+     "end_time": 6.92,
+     "type": "word"
+    },
+    {
+     "text": " ",
+     "start_time": 6.92,
+     "end_time": 6.92,
+     "type": "spacing"
+    },
+    {
+     "text": "fix",
+     "start_time": 7.52,
+     "end_time": 7.78,
+     "type": "word"
+    },
+    {
+     "text": " ",
+     "start_time": 7.78,
+     "end_time": 7.78,
+     "type": "spacing"
+    },
+    {
+     "text": "your",
+     "start_time": 7.8,
+     "end_time": 8.08,
+     "type": "word"
+    },
+    {
+     "text": " ",
+     "start_time": 8.08,
+     "end_time": 8.08,
+     "type": "spacing"
+    },
+    {
+     "text": "mistakes.",
+     "start_time": 8.1,
+     "end_time": 8.6,
+     "type": "word"
+    },
+    {
+     "text": " ",
+     "start_time": 8.6,
+     "end_time": 8.6,
+     "type": "spacing"
+    },
+    {
+     "text": "Start",
+     "start_time": 9.9,
+     "end_time": 10.4,
+     "type": "word"
+    },
+    {
+     "text": " ",
+     "start_time": 10.4,
+     "end_time": 10.4,
+     "type": "spacing"
+    },
+    {
+     "text": "today.",
+     "start_time": 10.72,
+     "end_time": 11.22,
+     "type": "word"
+    },
+    {
+     "text": " ",
+     "start_time": 11.22,
+     "end_time": 11.22,
+     "type": "spacing"
+    }
+   ]
+  }
+ ]
+}

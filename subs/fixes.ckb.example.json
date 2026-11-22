@@ -1,0 +1,8 @@
+{
+  "_comment": "Corrections applied to every transcript. Speech-to-text for Kurdish Sorani makes the same mistakes repeatedly; collect yours here.",
+  "chars": {"ي": "ی", "ى": "ی", "ك": "ک"},
+  "words": {"راست": "ڕاست", "تەکنۆلۆژیا": "تەکنەلۆجیا"},
+  "before": [["ژیری", "دەستکرد", "ژیریی"]],
+  "highlight": ["هەنگاو", "ئەمڕۆ"],
+  "hero": ["قورس نییە"]
+}

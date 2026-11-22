@@ -1,0 +1,8 @@
+node_modules/
+work/
+__pycache__/
+*.mp4
+*.mov
+*.wav
+*.flac
+*.mp3
