@@ -8,6 +8,13 @@ Turn a raw talking-to-camera video into a finished vertical reel (Instagram Reel
 4. **Sound**: voice polish and quiet synthesized sound effects.
 5. **Export**: 1080x1920, composited with ffmpeg.
 
+<p>
+<img src="docs/flow_sorani.gif" width="240" alt="flow design, Kurdish Sorani demo">
+<img src="docs/night_english.gif" width="240" alt="night design, English demo">
+</p>
+
+*Demo renders over a placeholder figure (your video goes there). Yellow numbers on the stills below are seconds.*
+
 It works for **right-to-left and left-to-right languages**. It was built for **Kurdish Sorani** (Vazirmatn typeface, Sorani transcript fixes) and ships with a Sorani demo and an English demo. One setting in `graphics/config.js` switches direction and font, so Arabic, Persian or any other language is a font and a fixes file away.
 
 It is designed to be driven by an AI coding assistant (see `skill/SKILL.md`, a ready-made skill for Claude), but every step is a plain script you can run yourself.
@@ -45,6 +52,15 @@ Pick a look with one line in `graphics/config.js`; every component and the subti
 | `'flow'` | Soft paper panels, hand-drawn lines, text straight on the wall, no boxes. Calm, editorial. |
 | `'night'` | Dark panels, neon accents with glow, notes and markers on dark cards. Tech, product, coding. |
 | `'punch'` | White panels, heavy type, a highlighter box behind key subtitle words. Loud, fast, opinionated. |
+
+**flow** (Sorani demo)
+![flow design](docs/flow_sorani.jpg)
+
+**night** (English showcase demo)
+![night design](docs/night_english.jpg)
+
+**punch** (English demo)
+![punch design](docs/punch_english.jpg)
 
 `PALETTE` overrides any colour of the chosen design (for example your brand's two accent tones).
 
